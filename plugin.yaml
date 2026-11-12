@@ -1,0 +1,11 @@
+name: modal
+kind: model-provider
+version: 1.0.0
+description: Modal Endpoints for OpenAI-compatible APIs
+author: Modal
+requires_hermes: ">=0.23.0"
+requires_env:
+  - name: MODAL_PROXY_TOKEN
+    description: Modal proxy token (wk-<id>.ws-<secret>)
+    url: https://modal.com/settings
+    secret: true
