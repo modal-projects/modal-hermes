@@ -128,7 +128,7 @@ modal = ModalProfile(
     name="modal",
     display_name="Modal",
     description="Modal Endpoints for OpenAI-compatible APIs",
-    signup_url="https://modal.com/settings",
+    signup_url="https://modal.com/signup?utm_source=hermes-agent&utm_medium=referral&utm_campaign=inference_partners&utm_content=signup",
     env_vars=("MODAL_PROXY_TOKEN", "MODAL_BASE_URL"),
     base_url="https://inference.us-west.modal.direct/v1",
     metadata_hostnames=("modal.direct", "modal.run"),

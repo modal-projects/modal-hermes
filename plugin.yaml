@@ -7,5 +7,5 @@ requires_hermes: ">=0.23.0"
 requires_env:
   - name: MODAL_PROXY_TOKEN
     description: Modal proxy token (wk-<id>.ws-<secret>)
-    url: https://modal.com/settings
+    url: https://modal.com/settings/proxy-auth-tokens?utm_source=hermes-agent&utm_medium=referral&utm_campaign=inference_partners&utm_content=env_setup
     secret: true
